@@ -3,7 +3,7 @@
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<title><?php bloginfo('name'); ?></title>
-  <link rel="stylesheet" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<?php wp_head(); ?>
 </head>
 <body>
@@ -13,14 +13,13 @@
 			<span><?php bloginfo('description'); ?></span>
 		</div>
 	</header>
-<nav class="main-nav">
-  <div class="container">
-    <?php
-      $args = array(
-        'theme_location' => 'primary'
-      );
-     ?>
-     <?php wp_nav_menu($args); ?>
-  </div>
-
-</nav>
+	<nav class="main-nav">
+		<div class="container">
+		<?php
+			$args = array(
+				'theme_location'	=> 'primary'
+			);
+		?>
+		<?php wp_nav_menu($args); ?>
+		</div>
+	</nav>

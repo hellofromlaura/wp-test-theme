@@ -17,7 +17,7 @@ body{
 }
 
 a{
-  color: #333;
+	color:#333;
 }
 
 header{
@@ -39,61 +39,98 @@ header h1{
 	overflow:auto;
 }
 
+.clr{
+	clear:both;
+}
+
 .main{
 	margin:15px 0;
+	float:left;
+	width:68%;
+}
+
+.sidebar{
+	float:right;
+	width:28%;
 }
 
 footer{
 	background: #393939;
-	color: #fff;
+	color:#fff;
 	padding:10px 10px;
 	text-align: center;
 }
 
 article.post{
-  border-bottom: 1px #ccc solid;
-  overflow: hidden;
-  padding-bottom: 20px;
+	border-bottom:1px #ccc solid;
+	overflow:hidden;
+	padding-bottom:20px;
 }
 
-article.post, a.button{
-  display: inline-block;
-  background: #333;
-  color: #fff;
-  padding: 10px 5px;
-  margin-bottom: 10px;
-  text-decoration: none;
+article.post a.button{
+	display:inline-block;
+	background:#333;
+	color:#fff;
+	padding:10px 5px;
+	margin-bottom: 10px;
+	text-decoration: none;
 }
 
 .meta{
-  background: #333;
-  color: #fff;
-  padding: 5px;
+	background:#333;
+	color:#fff;
+	padding:5px;
+}
+
+.meta a{
+	color:#fff;
 }
 
 .post-thumbnail img{
-  width: 100%;
-  height: auto;
+	width:100%;
+	height:auto;
 }
 
 .main-nav{
-	background: #000;
-	color: #fff;
-	padding: 5px;
+	background:#000;
+	color:#fff;
+	padding:5px;
 }
 
-.main-nav ul {
-	margin: 0;
-	padding: 0;
+.main-nav ul{
+	margin:0;
+	padding:0;
 }
 
-.main-nav li {
+.main-nav li{
 	list-style: none;
-	float: left;
-	padding-right: 15px;
+	float:left;
+	padding-right:15px;
 }
 
-.main-nav a {
-	color: #fff;
+.main-nav a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.side-widget{
+	border:1px #ccc solid;
+	padding:10px 10px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.side-widget ul{
+	padding:0;
+	margin:0;
+}
+
+.side-widget li{
+	list-style: none;
+	line-height:2.2em;
+	border-bottom:dotted 1px #ccc;
+}
+
+.side-widget a{
 	text-decoration: none;
 }

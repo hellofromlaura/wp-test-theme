@@ -6,6 +6,7 @@
   Version: 1.0
 */
 
+
 body{
 	font-family: Arial;
 	color: #333;
@@ -137,6 +138,10 @@ article.post .meta{
 	background:#009acd;
 	color:#fff;
 	padding:7px;
+}
+
+article.post .meta a{
+	color:#fff;
 }
 
 .button{
